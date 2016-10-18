@@ -53,10 +53,11 @@ module.exports = {
     <title>Vue in-page app test</title>
 </head>
 <body>
-    <div id="page"></div>
+    <div id="app">
+        <div id="render"></div>
+    </div>
     <script src="./javascripts/app.min.js"></script>
 </body>
-
 </html>
 ```
 
