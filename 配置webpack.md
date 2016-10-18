@@ -44,5 +44,23 @@ module.exports = {
 }
 ```
 
+在src目录中创建index.html文件，并引入输出的javascript文件
+
+```
+<!doctype html>
+<head>
+    <meta charset="utf-8" />
+    <title>Vue in-page app test</title>
+</head>
+<body>
+    <div id="page"></div>
+    <script src="./javascripts/app.min.js"></script>
+</body>
+
+</html>
+```
+
+在命令行中使用webpack命令打包（添加-p可压缩）项目文件。此时访问index.html即可看到app.js中执行的内容了。
+
 
 
