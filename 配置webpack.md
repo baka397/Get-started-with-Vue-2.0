@@ -62,18 +62,3 @@ module.exports = {
 
 在命令行中使用webpack命令打包（添加-p可压缩）项目文件。此时访问index.html即可看到app.js中执行的内容了。
 
-## 引入相关编译器
-
-npm安装相关包，包括babel、vue
-
-```
-npm install babel-core -save-dev
-npm install babel-loader -save-dev
-npm install babel-plugin-transform-object-assign -save-dev
-npm install babel-preset-es2015 -save-dev
-npm install babel-plugin-transform-runtime -save
-npm install babel-runtime -save
-npm install vue -save-dev
-npm install vue-loader -save-dev
-```
-
