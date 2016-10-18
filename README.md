@@ -8,12 +8,11 @@
 
 本书内容参考文档：
 
-* vue框架相关 [http:\/\/vuejs.org\/](http://vuejs.org/)
-* webpack [http:\/\/webpack.github.io\/docs\/](http://webpack.github.io/docs/)
-* redux [http:\/\/redux.js.org\/](http://redux.js.org/)
+* vue框架相关 [vuejs.org](http://vuejs.org/)
+* webpack [webpack.github.io](http://webpack.github.io/docs/)
+* redux [redux.js.org](http://redux.js.org/)
 
-* vue-router [http:\/\/router.vuejs.org\/zh-cn\/index.html](http://router.vuejs.org/zh-cn/index.html)
-
+* vue-router [router.vuejs.org](http://router.vuejs.org/zh-cn/index.html)
 
 
 ## 其他注意
