@@ -15,6 +15,7 @@
 * vue-router [router.vuejs.org](http://router.vuejs.org/zh-cn/index.html)
 
 
+作者github：[baka397](https://github.com/baka397)
 ## 其他注意
 
 * 本书使用单向数据流的状态管理思路，所以不介绍双向绑定部分内容\(v-model \)
