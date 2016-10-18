@@ -4,7 +4,7 @@
 
 本书介绍版本：2.0
 
-本书相关框架： webpack 、redux\(\)、vue-router\(2.0\)
+本书相关框架： webpack 、redux、vue-router\(2.0\)
 
 本书内容参考文档：
 
@@ -14,4 +14,9 @@
 
 * vue-router [http:\/\/router.vuejs.org\/zh-cn\/index.html](http://router.vuejs.org/zh-cn/index.html)
 
+
+
+## 其他注意
+
+* 本书使用类flux的状态管理思路，所以不介绍双向绑定部分内容\(v-model \)
 
