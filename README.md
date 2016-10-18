@@ -1,3 +1,8 @@
-# My Awesome Book
+## **Vue入门指南**
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本书旨在帮助了解vue，并介绍vue的一些基本概念，帮助学习者有大致的了解并可以使用vue。
+
+本书内容参考文档：http:\/\/vuejs.org\/
+
+本书目标版本：2.0
+
