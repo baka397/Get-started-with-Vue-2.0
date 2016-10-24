@@ -20,6 +20,8 @@ npm init
 "webpack": "^2.1.0-beta.25"
 ```
 
+你也可以使用`vue-cli`进行安装配置，详见[NPM说明](https://www.npmjs.com/package/vue-loader)。
+
 安装完成后我们写一个hello world的测试项目：
 
 首先在根目录创建**webpack.config.js** 并在 build目录下创建**app.js** 并随便写点什么 。
