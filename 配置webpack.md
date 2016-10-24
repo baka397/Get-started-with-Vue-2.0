@@ -14,10 +14,10 @@ npm install webpack -g
 npm init
 ```
 
-安装webpack到开发依赖
+在package.json中添加webpack并安装webpack到开发依赖。（vue-loader使用2.0以上的webpack才能正常编译）
 
 ```
-npm install webpack --save-dev
+"webpack": "^2.1.0-beta.25"
 ```
 
 安装完成后我们写一个hello world的测试项目：
