@@ -1,4 +1,5 @@
-# reducer
+1. # reducer
+
 
 reducer是一个数据处理函数，这意味着一个reducer函数必须满足**输入值固定，则输出值固定**。
 
@@ -46,7 +47,10 @@ function todoApp(state = initialState, action) {
 
 ## 注意
 
-和action一样，我们同样需要注意对象类型的数据。同时，在变更数组类型数据时，建议根据情况使用以下方法：
+和action一样，我们同样需要注意对象类型的数据，return时使用`Object.assign`将是个好的选择。
 
+同时，在变更数组类型数据时，建议根据情况使用以下方法：
 
+1. 删除某个数据时使用`splice`。
+2. 
 
