@@ -51,6 +51,6 @@ function todoApp(state = initialState, action) {
 
 同时，在变更数组类型数据时，建议根据情况使用以下方法：
 
-1. 删除某个数据时使用`splice`。
+1. 删除数据时使用`splice`。
 2. 更改某条数据时使用`concat`。
 
