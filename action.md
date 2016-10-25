@@ -50,7 +50,7 @@ store.dispatch(addTodo({
 在编写action模块时，我们通常是按照以下格式：
 
 ```
-//action
+//action 常量
 export const ACTION_TYPE='ACTION_TYPE';
 
 //action 函数
