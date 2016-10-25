@@ -12,5 +12,7 @@ function addTodo(text) {
 }
 ```
 
-每个action返回的格式都必须包含一个type，type为reducer指明了处理的内容。在以上代码中，我们设置type为一个静态变量，保证type为不可变的内容。
+每个action返回的格式都必须包含一个type，type为reducer指明了处理的内容。在以上代码中，我们设置type为一个静态变量，保证type为不可变的内容并便于区分。
+
+
 
