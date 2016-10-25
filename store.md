@@ -21,7 +21,7 @@ const store = new Revue(Vue, reduxStore, actions)
 export default store
 ```
 
-在组件中我们使用`this.$select`（react中使用 `connect`和`propMap`函数来绑定组件）方法来选择对应的reducer数据，使用`store.dispatch`（react中直接绑定了 `dispatch `方法在prop中）来调用action函数，如官方示例：
+在组件中我们使用`this.$select`（react中使用 `connect`和`propMap`函数来绑定组件）方法来选择对应的reducer数据，使用`store.dispatch`（react中直接绑定了 `dispatch`方法在prop中）来调用action函数，如官方示例：
 
 ```
 import store from './store'
@@ -49,6 +49,4 @@ export default {
   }
 }
 ```
-
-
 
