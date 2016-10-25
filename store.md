@@ -55,4 +55,5 @@ export default {
 虽然可以在任意组件中载入store内容，但是个人仍旧推荐使用以下原则（该原则同样适用于react应用）：
 
 1. 推荐抽象页面级组件载入store数据和action函数，方便维护。
+2. 按功能块分拆reducer，抽象列表为object对象索引。
 
