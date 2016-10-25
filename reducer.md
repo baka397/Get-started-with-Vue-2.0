@@ -36,7 +36,7 @@ const initialState = {
     todos: []
 }
 function todoApp(state = initialState, action) {
-      swtch(action.type){
+      switch(action.type){
         //case condition
         default:
             return state
