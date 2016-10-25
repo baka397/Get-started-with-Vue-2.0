@@ -21,5 +21,5 @@ const store = new Revue(Vue, reduxStore, actions)
 export default store
 ```
 
-在组件中我们使用`this.$select`方法来选择对应的reducer数据，使用
+在组件中我们使用`this.$select`（react中使用）方法来选择对应的reducer数据，使用store.dispatch（react中直接绑定了 dispatch 方法在prop中）来
 
