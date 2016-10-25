@@ -2,7 +2,7 @@
 
 和react中不同，在vue中我们通过另外的方法绑定store数据。
 
-在vue中，我们需要创建一个额外的store模块以供组件调用，如官方示例：
+在vue中，需要创建一个额外的store模块以供组件调用，如官方示例：
 
 ```
 import Vue from 'vue'
@@ -20,4 +20,6 @@ const store = new Revue(Vue, reduxStore, actions)
 // expose the store for your component to use
 export default store
 ```
+
+在组件中我们使用`this.$select`方法来选择对应的reducer数据，使用
 
