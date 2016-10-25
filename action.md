@@ -23,5 +23,16 @@ function addTodo(text) {
 
 下面给出一个示范：
 
+建立一个action函数
+
+```
+const ADD_TODO = 'ADD_TODO';
+function addTodo(todoObject) {
+  return Object.assign({
+    type:ADD_TODO
+  },todoObject);
+}
+```
+
 
 
