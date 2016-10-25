@@ -56,5 +56,5 @@ export default {
 
 1. 推荐抽象页面级组件载入store数据和action函数，方便维护。
 2. 按功能块分拆reducer，抽象列表为object对象索引，适用Object.keys\(\)或索引数组查询所有列表。
-3. 所有的
+3. 所有的常量都放入对应action内。
 
