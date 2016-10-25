@@ -16,5 +16,18 @@ function todoApp(state, action) {
 }
 ```
 
+通常，我们还需要指定reducer的缺省值，如下：
+
+```
+const initialState = {
+  todos: []
+}
+function todoApp(state = initialState, action) {
+  // For now, don't handle any actions
+  // and just return the state given to us.
+  return state
+}
+```
+
 
 
