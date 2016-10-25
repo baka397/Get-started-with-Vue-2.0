@@ -29,7 +29,7 @@ function todoApp(state = initialState, action) {
 }
 ```
 
-在此基础上，通常使用switch来匹配action的内容，如下：
+在此基础上，通常使用`switch`来匹配action的内容，如下：
 
 ```
 const initialState = {
