@@ -56,5 +56,5 @@ export default {
 
 1. 推荐抽象页面级组件载入store数据和action函数，方便维护。
 2. 按功能块分拆reducer，抽象列表为object对象索引，适用Object.keys\(\)或索引数组查询所有列表。
-3. 由于vue中抽象出了dispatch方法，因此可以在组件内灵活适用`store.dispatch`调用。（react需要）
+3. 由于vue中抽象出了dispatch方法，因此可以在组件内灵活适用`store.dispatch`调用。（react需要使用父组件继承下来的方法）
 
