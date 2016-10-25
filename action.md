@@ -45,3 +45,9 @@ store.dispatch(addTodo({
 }))
 ```
 
+## 模块编写
+
+在编写action模块时，我们通常是按照以下格式：
+
+
+
