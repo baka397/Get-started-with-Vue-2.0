@@ -54,3 +54,7 @@ function todoApp(state = initialState, action) {
 1. 删除数据时使用`splice`。
 2. 更改某条数据时使用 `slice` 和`concat`拆分后拼接。
 
+## 合并多个reducer
+
+
+
