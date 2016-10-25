@@ -56,7 +56,7 @@ function todoApp(state = initialState, action) {
 
 ## 合并多个reducer
 
-redux提供 `createStore` 方法来合并多个reducer，如官方文档：
+redux提供 `createStore` 方法来合并多个reducer，如官方文档示例：
 
 ```
 // reducers.js
@@ -83,6 +83,4 @@ const store = createStore(rootReducer);
 console.log(store.getState());
 // {theDefaultReducer : 0, firstNamedReducer : 1, secondNamedReducer : 2}
 ```
-
-
 
