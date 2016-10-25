@@ -49,5 +49,15 @@ store.dispatch(addTodo({
 
 在编写action模块时，我们通常是按照以下格式：
 
+```
+//action
+export const ACTION_TYPE='ACTION_TYPE';
 
+//action 函数
+export function actionFunction(){
+    return {
+        type:ACTION_TYPE
+    }
+}
+```
 
