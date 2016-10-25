@@ -34,5 +34,14 @@ function addTodo(todoObject) {
 }
 ```
 
+在使用这个action函数时使用单层数据
+
+```
+store.dispatch(addTodo({
+    content:'first todo',
+    complete:false
+}))
+```
+
 
 
