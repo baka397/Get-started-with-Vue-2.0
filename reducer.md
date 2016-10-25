@@ -46,5 +46,7 @@ function todoApp(state = initialState, action) {
 
 ## 注意
 
+和action一样，我们同样需要注意对象类型的数据。同时，在变更数组类型数据时，建议根据情况使用以下方法：
+
 
 
