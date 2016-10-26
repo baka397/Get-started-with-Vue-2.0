@@ -26,12 +26,10 @@
 
 ```
 {
-    list:[{
+    "list":[{
         "content":"", //待办内容
         "complete":true //是否完成标记
     }]
 }
 ```
-
-
 
