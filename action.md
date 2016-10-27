@@ -30,10 +30,10 @@ function addTodo(text) {
 ```
 const ADD_TODO = 'ADD_TODO';
 function addTodo(todoObject) {
-  return Object.assign({
+  return {
     type:ADD_TODO,
     data:todoObject
-  });
+  }
 }
 ```
 
