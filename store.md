@@ -50,3 +50,7 @@ export default {
 }
 ```
 
+## 注意
+
+由于reven不支持vue 2.0，所以我们修改reven并放入lib中。
+
