@@ -52,5 +52,5 @@ export default {
 
 ## 注意
 
-由于reven不支持vue 2.0，所以我们修改reven并放入lib中。
+由于`revue`不支持vue 2.0，所以我们修改reven并放入lib中。
 
